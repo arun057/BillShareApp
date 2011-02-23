@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'BillShareAppTests' target in the 'BillShareAppTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif

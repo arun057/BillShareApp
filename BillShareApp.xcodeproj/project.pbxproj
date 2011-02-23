@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4010F9B13148E5900694257 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4010F9A13148E5900694257 /* UIKit.framework */; };
+		F4010F9D13148E5900694257 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4010F9C13148E5900694257 /* Foundation.framework */; };
+		F4010F9F13148E5900694257 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4010F9E13148E5900694257 /* CoreGraphics.framework */; };
+		F4010FA113148E5900694257 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4010FA013148E5900694257 /* CoreData.framework */; };
+		F4010FA713148E5900694257 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4010FA513148E5900694257 /* InfoPlist.strings */; };
+		F4010FAA13148E5900694257 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4010FA913148E5900694257 /* main.m */; };
+		F4010FAD13148E5900694257 /* BillShareAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4010FAC13148E5900694257 /* BillShareAppAppDelegate.m */; };
+		F4010FB013148E5900694257 /* BillShareApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4010FAE13148E5900694257 /* BillShareApp.xcdatamodeld */; };
+		F4010FB413148E5900694257 /* BillShareAppAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = F4010FB313148E5900694257 /* BillShareAppAppDelegate_iPhone.m */; };
+		F4010FB713148E5900694257 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4010FB513148E5900694257 /* MainWindow_iPhone.xib */; };
+		F4010FBB13148E5900694257 /* BillShareAppAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = F4010FBA13148E5900694257 /* BillShareAppAppDelegate_iPad.m */; };
+		F4010FBE13148E5900694257 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4010FBC13148E5900694257 /* MainWindow_iPad.xib */; };
+		F4010FC513148E5900694257 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4010F9A13148E5900694257 /* UIKit.framework */; };
+		F4010FC613148E5900694257 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4010F9C13148E5900694257 /* Foundation.framework */; };
+		F4010FC713148E5900694257 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4010F9E13148E5900694257 /* CoreGraphics.framework */; };
+		F4010FC813148E5900694257 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4010FA013148E5900694257 /* CoreData.framework */; };
+		F4010FD013148E5900694257 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4010FCE13148E5900694257 /* InfoPlist.strings */; };
+		F4010FD313148E5900694257 /* BillShareAppTests.h in Resources */ = {isa = PBXBuildFile; fileRef = F4010FD213148E5900694257 /* BillShareAppTests.h */; };
+		F4010FD513148E5900694257 /* BillShareAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4010FD413148E5900694257 /* BillShareAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4010FC913148E5900694257 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4010F8D13148E5900694257 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4010F9513148E5900694257;
+			remoteInfo = BillShareApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4010F9613148E5900694257 /* BillShareApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BillShareApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4010F9A13148E5900694257 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F4010F9C13148E5900694257 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F4010F9E13148E5900694257 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F4010FA013148E5900694257 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F4010FA413148E5900694257 /* BillShareApp-Info.plist */ = {isa = PBXFileReference; path = "BillShareApp-Info.plist"; sourceTree = "<group>"; };
+		F4010FA613148E5900694257 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4010FA813148E5900694257 /* BillShareApp-Prefix.pch */ = {isa = PBXFileReference; path = "BillShareApp-Prefix.pch"; sourceTree = "<group>"; };
+		F4010FA913148E5900694257 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4010FAB13148E5900694257 /* BillShareAppAppDelegate.h */ = {isa = PBXFileReference; path = BillShareAppAppDelegate.h; sourceTree = "<group>"; };
+		F4010FAC13148E5900694257 /* BillShareAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BillShareAppAppDelegate.m; sourceTree = "<group>"; };
+		F4010FAF13148E5900694257 /* BillShareApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BillShareApp.xcdatamodel; sourceTree = "<group>"; };
+		F4010FB213148E5900694257 /* BillShareAppAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = BillShareAppAppDelegate_iPhone.h; path = iPhone/BillShareAppAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		F4010FB313148E5900694257 /* BillShareAppAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BillShareAppAppDelegate_iPhone.m; path = iPhone/BillShareAppAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		F4010FB613148E5900694257 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		F4010FB913148E5900694257 /* BillShareAppAppDelegate_iPad.h */ = {isa = PBXFileReference; name = BillShareAppAppDelegate_iPad.h; path = iPad/BillShareAppAppDelegate_iPad.h; sourceTree = "<group>"; };
+		F4010FBA13148E5900694257 /* BillShareAppAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BillShareAppAppDelegate_iPad.m; path = iPad/BillShareAppAppDelegate_iPad.m; sourceTree = "<group>"; };
+		F4010FBD13148E5900694257 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		F4010FC413148E5900694257 /* BillShareAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BillShareAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4010FCD13148E5900694257 /* BillShareAppTests-Info.plist */ = {isa = PBXFileReference; path = "BillShareAppTests-Info.plist"; sourceTree = "<group>"; };
+		F4010FCF13148E5900694257 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4010FD113148E5900694257 /* BillShareAppTests-Prefix.pch */ = {isa = PBXFileReference; path = "BillShareAppTests-Prefix.pch"; sourceTree = "<group>"; };
+		F4010FD213148E5900694257 /* BillShareAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BillShareAppTests.h; sourceTree = "<group>"; };
+		F4010FD413148E5900694257 /* BillShareAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BillShareAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4010F9313148E5900694257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4010F9B13148E5900694257 /* UIKit.framework in Frameworks */,
+				F4010F9D13148E5900694257 /* Foundation.framework in Frameworks */,
+				F4010F9F13148E5900694257 /* CoreGraphics.framework in Frameworks */,
+				F4010FA113148E5900694257 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4010FC013148E5900694257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4010FC513148E5900694257 /* UIKit.framework in Frameworks */,
+				F4010FC613148E5900694257 /* Foundation.framework in Frameworks */,
+				F4010FC713148E5900694257 /* CoreGraphics.framework in Frameworks */,
+				F4010FC813148E5900694257 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4010F8B13148E5900694257 = {
+			isa = PBXGroup;
+			children = (
+				F4010FA213148E5900694257 /* BillShareApp */,
+				F4010FCB13148E5900694257 /* BillShareAppTests */,
+				F4010F9913148E5900694257 /* Frameworks */,
+				F4010F9713148E5900694257 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4010F9713148E5900694257 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4010F9613148E5900694257 /* BillShareApp.app */,
+				F4010FC413148E5900694257 /* BillShareAppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4010F9913148E5900694257 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4010F9A13148E5900694257 /* UIKit.framework */,
+				F4010F9C13148E5900694257 /* Foundation.framework */,
+				F4010F9E13148E5900694257 /* CoreGraphics.framework */,
+				F4010FA013148E5900694257 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4010FA213148E5900694257 /* BillShareApp */ = {
+			isa = PBXGroup;
+			children = (
+				F4010FAB13148E5900694257 /* BillShareAppAppDelegate.h */,
+				F4010FAC13148E5900694257 /* BillShareAppAppDelegate.m */,
+				F4010FAE13148E5900694257 /* BillShareApp.xcdatamodeld */,
+				F4010FB113148E5900694257 /* iPhone */,
+				F4010FB813148E5900694257 /* iPad */,
+				F4010FA313148E5900694257 /* Supporting Files */,
+			);
+			path = BillShareApp;
+			sourceTree = "<group>";
+		};
+		F4010FA313148E5900694257 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4010FA413148E5900694257 /* BillShareApp-Info.plist */,
+				F4010FA513148E5900694257 /* InfoPlist.strings */,
+				F4010FA813148E5900694257 /* BillShareApp-Prefix.pch */,
+				F4010FA913148E5900694257 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4010FB113148E5900694257 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				F4010FB213148E5900694257 /* BillShareAppAppDelegate_iPhone.h */,
+				F4010FB313148E5900694257 /* BillShareAppAppDelegate_iPhone.m */,
+				F4010FB513148E5900694257 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		F4010FB813148E5900694257 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				F4010FB913148E5900694257 /* BillShareAppAppDelegate_iPad.h */,
+				F4010FBA13148E5900694257 /* BillShareAppAppDelegate_iPad.m */,
+				F4010FBC13148E5900694257 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		F4010FCB13148E5900694257 /* BillShareAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4010FD213148E5900694257 /* BillShareAppTests.h */,
+				F4010FD413148E5900694257 /* BillShareAppTests.m */,
+				F4010FCC13148E5900694257 /* Supporting Files */,
+			);
+			path = BillShareAppTests;
+			sourceTree = "<group>";
+		};
+		F4010FCC13148E5900694257 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4010FCD13148E5900694257 /* BillShareAppTests-Info.plist */,
+				F4010FCE13148E5900694257 /* InfoPlist.strings */,
+				F4010FD113148E5900694257 /* BillShareAppTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4010F9513148E5900694257 /* BillShareApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4010FD813148E5900694257 /* Build configuration list for PBXNativeTarget "BillShareApp" */;
+			buildPhases = (
+				F4010F9213148E5900694257 /* Sources */,
+				F4010F9313148E5900694257 /* Frameworks */,
+				F4010F9413148E5900694257 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BillShareApp;
+			productName = BillShareApp;
+			productReference = F4010F9613148E5900694257 /* BillShareApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4010FC313148E5900694257 /* BillShareAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4010FDB13148E5900694257 /* Build configuration list for PBXNativeTarget "BillShareAppTests" */;
+			buildPhases = (
+				F4010FBF13148E5900694257 /* Sources */,
+				F4010FC013148E5900694257 /* Frameworks */,
+				F4010FC113148E5900694257 /* Resources */,
+				F4010FC213148E5900694257 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4010FCA13148E5900694257 /* PBXTargetDependency */,
+			);
+			name = BillShareAppTests;
+			productName = BillShareAppTests;
+			productReference = F4010FC413148E5900694257 /* BillShareAppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4010F8D13148E5900694257 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "eDen Groups";
+			};
+			buildConfigurationList = F4010F9013148E5900694257 /* Build configuration list for PBXProject "BillShareApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F4010F8B13148E5900694257;
+			productRefGroup = F4010F9713148E5900694257 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4010F9513148E5900694257 /* BillShareApp */,
+				F4010FC313148E5900694257 /* BillShareAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4010F9413148E5900694257 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4010FA713148E5900694257 /* InfoPlist.strings in Resources */,
+				F4010FB713148E5900694257 /* MainWindow_iPhone.xib in Resources */,
+				F4010FBE13148E5900694257 /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4010FC113148E5900694257 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4010FD013148E5900694257 /* InfoPlist.strings in Resources */,
+				F4010FD313148E5900694257 /* BillShareAppTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F4010FC213148E5900694257 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4010F9213148E5900694257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4010FAA13148E5900694257 /* main.m in Sources */,
+				F4010FAD13148E5900694257 /* BillShareAppAppDelegate.m in Sources */,
+				F4010FB013148E5900694257 /* BillShareApp.xcdatamodeld in Sources */,
+				F4010FB413148E5900694257 /* BillShareAppAppDelegate_iPhone.m in Sources */,
+				F4010FBB13148E5900694257 /* BillShareAppAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4010FBF13148E5900694257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4010FD513148E5900694257 /* BillShareAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4010FCA13148E5900694257 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4010F9513148E5900694257 /* BillShareApp */;
+			targetProxy = F4010FC913148E5900694257 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4010FA513148E5900694257 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4010FA613148E5900694257 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F4010FB513148E5900694257 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4010FB613148E5900694257 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		F4010FBC13148E5900694257 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4010FBD13148E5900694257 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+		F4010FCE13148E5900694257 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4010FCF13148E5900694257 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4010FD613148E5900694257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4010FD713148E5900694257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F4010FD913148E5900694257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BillShareApp/BillShareApp-Prefix.pch";
+				INFOPLIST_FILE = "BillShareApp/BillShareApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F4010FDA13148E5900694257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BillShareApp/BillShareApp-Prefix.pch";
+				INFOPLIST_FILE = "BillShareApp/BillShareApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F4010FDC13148E5900694257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BillShareApp.app/BillShareApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BillShareAppTests/BillShareAppTests-Prefix.pch";
+				INFOPLIST_FILE = "BillShareAppTests/BillShareAppTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F4010FDD13148E5900694257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BillShareApp.app/BillShareApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BillShareAppTests/BillShareAppTests-Prefix.pch";
+				INFOPLIST_FILE = "BillShareAppTests/BillShareAppTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4010F9013148E5900694257 /* Build configuration list for PBXProject "BillShareApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4010FD613148E5900694257 /* Debug */,
+				F4010FD713148E5900694257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4010FD813148E5900694257 /* Build configuration list for PBXNativeTarget "BillShareApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4010FD913148E5900694257 /* Debug */,
+				F4010FDA13148E5900694257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4010FDB13148E5900694257 /* Build configuration list for PBXNativeTarget "BillShareAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4010FDC13148E5900694257 /* Debug */,
+				F4010FDD13148E5900694257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F4010FAE13148E5900694257 /* BillShareApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F4010FAF13148E5900694257 /* BillShareApp.xcdatamodel */,
+			);
+			currentVersion = F4010FAF13148E5900694257 /* BillShareApp.xcdatamodel */;
+			path = BillShareApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F4010F8D13148E5900694257 /* Project object */;
+}
